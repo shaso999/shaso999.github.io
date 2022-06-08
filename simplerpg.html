@@ -92,7 +92,7 @@ p {
 <h2>Mechanics</h2>
 <p>Next you need to choose your characters mechanical elements.</p>
 <h3>Attributes</h3>
-<p>First you need to set your characters attributes, they are used for resolving actions and checks during the game. Your character has seven attributes that all start at 1. You have 15 points to increase them, costing one point to raise any attribute by one, and you cannot increase an attribute over five.</p>
+<p>First you need to set your characters attributes, they are used for resolving actions and checks during the game. Your character has seven attributes that all start at <b>1</b>. You have <b>15</b> points to increase them, costing <b>one</b> point to raise any attribute by <b>one</b>, and you cannot increase an attribute over <b>five</b>.</p>
 <p>The "Average" attribute is 3, increasing and decreasing in standard deviations. So 2 is bad, 1 is terrible, 4 is good, 5 is incredible.</p>
 <img src="AttributeCurve.PNG">
 <p>The seven attributes are as follows:</p>
@@ -142,8 +142,8 @@ p {
 <aside>
 <p>Why these three stats? Beyond the fact they are the ones you would use to avoid dying, they are also the least conventionally useful out of the seven, helping to balance your choices.</p>
 </aside>
-<p>Next you should calculate and fill in your number of "strikes". These represent your health, or ability to avoid negative consequences during play. Total up your BRN, AWR, &#38; MIN, and compare the total to the following Table</p>
-<table class="c">
+<p>Next you should calculate and fill in your number of "strikes". These represent your health, or ability to avoid negative consequences during play. Total up your <b>BRN</b>, <b>AWR</b>, &#38; <b>MIN</b>, and compare the total to the following Table</p>
+<table class="a">
   <tr>
     <th>Attribute</th>
     <td>0-6</td>
@@ -161,7 +161,84 @@ p {
     <td>5</td>
   </tr>
  </table>
-
-
+<h3>Modifications</h3>
+<p>Finally you should select modifications. By default you have <b>two</b> points to spend on the following table. Taking negative modifications will allow you to get more then two points of positive modifications.</p>
+<table class="c">
+  <tr>
+    <th>Name</th>
+	<th>Cost</th>
+	<th>Impact</th>
+	</tr>
+  <tr>
+    <td>Special Skill</td>
+	<td>2</td>
+    <td>Select a skill that you character has &#40;e.g. Driving Cars, Flying Fighter Jets, Running Marathons, Auditing Financial Statements, etc.&#41;. The skill should include the thing you do, and what it applies to &#40;Shooting Sniper Rifles no just Shooting&#41;. Gain +2 to all skill checks using that skill. Can be taken twice for a given skill, for +4.</td> 
+  </tr>
+  <tr>
+    <td>Positive Attribute</td>
+	<td>4</td>
+    <td>Add 1 to an attribute, this cannot take an attribute over 5 without GM permission. This can be taken multiple times. Note this can only be taken at character generation without GM permission.</td>
+  </tr>
+  <tr>
+    <td>Negative Attribute</td>
+	<td>-4</td>
+    <td>Subtract 1 from an attribute, this cannot take an attribute under 1 without GM permission. This can be taken multiple times. Note this can only be taken at character generation without GM permission. This is often used once to represent a middle aged character, or twice to represent an old one.</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Sight</td>
+	<td>2</td>
+    <td>You have excellent vision. Gain +2 to REA tests, where the threat is visible. Do not apply penalties to checks for objects/targets being to small to see, or to far away &#40;e.g. if a skill test would normally be hard to spot a symbol on a wall since it is 50m away, treat it as normal instead&#41;</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Hearing</td>
+	<td>2</td>
+    <td>You have excellent hearing. Gain +2 to REA tests, where the threat is audible, and +2 for any skill tests where you are trying to detect or understand noises.</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Taste</td>
+	<td>1</td>
+    <td>You have an excellent sense of taste. Gain +2 to REA tests, where you can taste the threat, and +2 for any skill tests where you are trying to detect or understand flavour.</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Touch</td>
+	<td>1</td>
+    <td>You have an excellent sense of touch. Gain +2 to REA tests, where you can feel the threat, and +2 for any skill tests where you are trying to detect or understand something tactile.</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Smell</td>
+	<td>1</td>
+    <td>You have an excellent sense of smell. Gain +2 to REA tests, where you can smell the threat, and +2 for any skill tests where you are trying to detect or understand and aroma.</td>
+  </tr>
+  <tr>
+    <td>Heightened Sense - Smell</td>
+	<td>1</td>
+    <td>You have an excellent sense of smell. Gain +2 to REA tests, where you can smell the threat, and +2 for any skill tests where you are trying to detect or understand and aroma.</td>
+  </tr>
+  <tr>
+    <td>Blind</td>
+	<td>-2</td>
+    <td>You are blind. Reduce HEC to 0. In addition to the base 2 negative modification points, gain another 4 for every point of attribute that you lost.</td>
+  </tr>
+  <tr>
+    <td>Deaf</td>
+	<td>-4</td>
+    <td>You are deaf.</td>
+  </tr>
+  <tr>
+    <td>Partially Paralyzed</td>
+	<td>-4</td>
+    <td>You are in a wheel chair, and are reliant on it to move around. BRN &#38; ATH cannot be over 4. This can also be used to model other mobility disabilities.</td>
+  </tr>
+  <tr>
+    <td>Fully Paralyzed</td>
+	<td>-8</td>
+    <td>You are in a motorized wheel chair, and are reliant on it to move around. BRN &#38; ATH cannot be over 2.</td>
+  </tr>
+  <tr>
+    <td>Attractive</td>
+	<td>2</td>
+    <td>You are attractive. Gain +2 to any social skill checks with someone who would be sexually interested in you &#40;Consider Sex, Orientation, and Species&#41;. Test either needs to be in person, or with someone that has meet you in person before, and knows who you are. You are also more memorable, making NPCs remembering you easier, and you being able to go unnoticed harder (increasing or decreasing the difficulty on skill checks). Can be taken a second time, increasing the benefits to +4, and making NPCs notice you immediately, and rarely forget you were there (increasing or decreasing the difficulty on skill checks).</td>
+  </tr>
+ </table>
 </body>
 </html>

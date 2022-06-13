@@ -57,6 +57,9 @@ p {
 
 "col:nth-child"
 </style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="[[jquery_plantuml.js|jquery_plantuml.js]]"></script>
+<!-- rawdeflate.js is implicity used by jquery_plantuml.js -->
 </head>
 <body>
  
@@ -276,9 +279,16 @@ p {
 <p>Each character has a number of strikes. That character can burn a strike to avoid one instance of negative circumstances. This could be something like getting shot, being crushed in a car crash, or going insane seeing the Dread Cthulhu. They cannot be used to make a check work, just to avoid the personal negative consequences &#40;survive a plane crash, not stop the plane from crashing&#41;. In game this would represent the character either dodging, toughing out the physical damage, or having the mental fortitude to power through, at the players discretion.</p>
 <p>Strikes are restored at the GMs discretion, but would generally be back to full at the start of the next adventure.</p>
 <h2>Initiative</h2>
+<p>The GM does not have to tell the player what the difficulty of the check is, if they think the character in game either wouldn't know or is working with bad information.</p>
+
 <h2>NPCs</h2>
+<h2>Statuses and Effects</h2>
 
 
+@startuml image.html
+!include file.pu!TAG2
+Alice->Bob : hello
+@enduml
  <!--
 @startuml
 !include file.pu!TAG2

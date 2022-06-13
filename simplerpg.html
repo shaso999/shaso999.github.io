@@ -99,7 +99,7 @@ p {
 <p>The "Average" attribute is 3, increasing and decreasing in standard deviations. So 2 is bad, 1 is terrible, 4 is good, 5 is incredible.</p>
 <img src="AttributeCurve.PNG"
      style="object-fit:contain;
-            width:500px;
+            width:800px;
             height:auto"/>
 <p>The seven attributes are as follows:</p>
 <table class="c">
@@ -260,7 +260,7 @@ p {
     <th>Difficulty</th>
     <td>Easy</td>
     <td>Normal</td>
-	<td>Hard</td>
+    <td>Hard</td>
     <td>Very Hard</td>
 	</tr>
   <tr>
@@ -278,6 +278,7 @@ p {
 <p>Now the player rolls 2D6, adds the related attribute, and any positive or negative adjustments from modifiers the character has. If the result is equal of higher then the TR it succeeds, lower it fails.&#40;TN&#41;.</p>
 <p>If it is possible for a check to succeed more then a normal success &#40;e.g. a check to see if you make money playing poker&#41;, you should give the character another increment of success for every 3 points they beat the TR by. So if I am playing poker and its a normal check to win, if I roll 13 in total I should win even more money &#40;like they passed a hard check&#41;</p>
 <p>The GM does not have to tell the player what the difficulty of the check is, if they think the character in game either wouldn't know or is working with bad information.</p>
+<H3>Skill Test FlowChart</H3>
 <img uml="
 (Is it Possible?) as (Q1)
 (Do not Roll, It Doesn't Happen) as (N1)
@@ -303,10 +304,22 @@ p {
 <p>Each character has a number of strikes. That character can burn a strike to avoid one instance of negative circumstances. This could be something like getting shot, being crushed in a car crash, or going insane seeing the Dread Cthulhu. They cannot be used to make a check work, just to avoid the personal negative consequences &#40;survive a plane crash, not stop the plane from crashing&#41;. In game this would represent the character either dodging, toughing out the physical damage, or having the mental fortitude to power through, at the players discretion.</p>
 <p>Strikes are restored at the GMs discretion, but would generally be back to full at the start of the next adventure.</p>
 <h2>Initiative</h2>
-<p>The GM does not have to tell the player what the difficulty of the check is, if they think the character in game either wouldn't know or is working with bad information.</p>
-
+<p>In cases where you need to determine who acts first, you would normally rely on context &#40;if someone starts shooting first, they go first&#41;. If it is unclear you can either have the relevant parties role REA tests, or just compare their REA stats to see who acts first.</p>
 <h2>NPCs</h2>
-<h2>Statuses and Effects</h2>
+<p>This section covers characters that are not players, and are controlled by the GM. There are two types.</p>
+ <aside>
+<p>&quot;Why 1D6+3?&quot; Because for all results it is equal or worse then 2D6 &#40;Given 1s for Mooks always fail&#41; and means you can roll checks for many of them at once.</p>
+</aside>
+<h3>Mooks</h3>
+<p>These are any NPCs that are not major characters. They have no strikes, so any action that would incapacite them takes them out of the game. When rolling a skill check with them, roll 1D6+3. Rolls of 1 always fail for Mooks.</p>
+<h3>Stars</h3>
+<p>These are any NPCs that are major characters. Build then and treat them like they are player characters, rolling 2D6 for their skill checks, and and tracking their strikes.</p>
 
+<h2>Statuses and Effects</h2>
+	
+<H1>Setting Rules</H1>
+<p>These are specific rules to use when making up your own settings or to customize your game.</p>
+	
+	
 </body>
 </html>

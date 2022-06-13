@@ -275,6 +275,27 @@ p {
 <p>Now the player rolls 2D6, adds the related attribute, and any positive or negative adjustments from modifiers the character has. If the result is equal of higher then the TR it succeeds, lower it fails.&#40;TN&#41;.</p>
 <p>If it is possible for a check to succeed more then a normal success &#40;e.g. a check to see if you make money playing poker&#41;, you should give the character another increment of success for every 3 points they beat the TR by. So if I am playing poker and its a normal check to win, if I roll 13 in total I should win even more money &#40;like they passed a hard check&#41;</p>
 <p>The GM does not have to tell the player what the difficulty of the check is, if they think the character in game either wouldn't know or is working with bad information.</p>
+<img uml="
+(Is it Possible?) as (Q1)
+(Do not Roll, It Doesn't Happen) as (N1)
+(Can it Fail?) as (Q2)
+(Do not Roll, It Happens) as (N2)
+(Determine the Attribute) as (S1)
+(Is the Character Skilled in This?) as (S2)
+(Determine Difficulty) as (S3)
+(Roll Dice & Add Modifications) as (S4)
+(Check is Toal => Then Difficulty) as (S5)
+
+(Q1) -Right-> (N1) : No
+(Q1) -Down-> (Q2) : Yes
+(Q2) -Right-> (N2) : No
+(Q2) -Down-> (S1)
+(S1) -Down-> (S2)
+(S2) -Down-> (S3) : Yes
+(S2) -Down-> (S3) : "No\n(-2)"
+(S3) -Down-> (S4) : "Easy 7\nNorm 10\nHard 13\nVHard 16"
+(S4) -Down-> (S5)
+">
 <h2>Strikes</h2>
 <p>Each character has a number of strikes. That character can burn a strike to avoid one instance of negative circumstances. This could be something like getting shot, being crushed in a car crash, or going insane seeing the Dread Cthulhu. They cannot be used to make a check work, just to avoid the personal negative consequences &#40;survive a plane crash, not stop the plane from crashing&#41;. In game this would represent the character either dodging, toughing out the physical damage, or having the mental fortitude to power through, at the players discretion.</p>
 <p>Strikes are restored at the GMs discretion, but would generally be back to full at the start of the next adventure.</p>
@@ -283,19 +304,6 @@ p {
 
 <h2>NPCs</h2>
 <h2>Statuses and Effects</h2>
-
-
-<p>Example</p>
-<hr>
-<img uml="
-Bob->Alice : foo
-Bob<--Alice : foo
-">
-<hr>
-<img uml="
-Bob->Alice : dummy
-Bob<--Alice : dummy
-">
 
 </body>
 </html>

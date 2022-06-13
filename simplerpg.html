@@ -63,17 +63,10 @@ p {
 </head>
 <body>
  
-<h1>SimpleRPG?</h1> 
+<h1 id="SimpleRPG">SimpleRPG</h1> 
 <p>A Generic Roll-Playing System that Doesn't Suck.</p> 
 <h2>Table of contents</h2> 
-<ul> 
-<li> Test 1<br/>
-<ul> 
-<li> Test A<br/></li>
-<li> Test B<br/></li>
-</ul>
-<li> Test 2<br/></li>
-</ul> 
+<a href="SimpleRPG">Jump to the part of the page with the “anchor-name” id </a>
 <h1>Background</h1> 
 <p>The purpose of this system is to have a bare-bones RPG that can be used to either a&#41; spin up a game quickly, or b&#41; serve as the foundation for a more built out game on top of it. I will leave notes inline as I go, but there are two things it is trying to solve. One is downtime at the table, every minute someone is looking up a rule, or more often consulting their sheet to see what skills even exist that may cover this scenario, is time that the game grinds to a halt. So it is built from the ground up to be a system where all the reference materials for running it fit on a page, and the players need a playing card at most. Second this system is designed to serve as the base resolution layer for any type of RPG on top, and as such has no dedicated combat rules in it. If you want to run a big shooting game, then that probably makes sense as something to bolt on, but there are lots of options for mechanics in games that are not "shoot the man" or more recently "track my social bonds with the man". So if you were trying to get your 'Drive to Survive' game, or 'Stardew Valley' knock off going, this is the place.</p> 
 <h1>Character Creation</h1>
@@ -286,9 +279,9 @@ p {
 (Do not Roll, It Happens) as (N2)
 (Determine the Attribute) as (S1)
 (Is the Character Skilled in This?) as (S2)
-(Determine Difficulty) as (S3)
+(Determine TN) as (S3)
 (Roll Dice & Add Modifications) as (S4)
-(Check is Toal => Then Difficulty) as (S5)
+(Check is Total => Then TN) as (S5)
 
 (Q1) -Right-> (N1) : No
 (Q1) -Down-> (Q2) : Yes
@@ -311,14 +304,64 @@ p {
 <p>&quot;Why 1D6+3?&quot; Because for all results it is equal or worse then 2D6 &#40;Given 1s for Mooks always fail&#41; and means you can roll checks for many of them at once.</p>
 </aside>
 <h3>Mooks</h3>
-<p>These are any NPCs that are not major characters. They have no strikes, so any action that would incapacite them takes them out of the game. When rolling a skill check with them, roll 1D6+3. Rolls of 1 always fail for Mooks.</p>
+<p>These are any NPCs that are not major characters. They have no strikes, so any action that would incapacitate them takes them out of the game. When rolling a skill check with them, roll 1D6+3. Rolls of 1 always fail for Mooks.</p>
 <h3>Stars</h3>
 <p>These are any NPCs that are major characters. Build then and treat them like they are player characters, rolling 2D6 for their skill checks, and and tracking their strikes.</p>
-
 <h2>Statuses and Effects</h2>
-	
+<aside>
+<p>Particularly if you are playing in person, it is useful to either have cards with these written on them, or to freehand them on strips of paper when they come up, and hand them to the player as a tangible reminder of the impact. That way they are tracking it not you.</p>
+</aside>
+<p>The impact of actions taken by the players or NPCs may have more lasting impacts on other characters. This could include things like being bruised from a punch, or blinded by flight, or drunk. To represent these, the characters impacted should have a negative modifier to one or more of their attributes until it goes away. Although examples are listed bellow they are not exhaustive.</p>
+<table class="a">
+  <tr>
+    <th>Status</th>
+    <th>Impact</th>
+	</tr>
+  <tr>
+    <td>Hurt or Wounded</td>
+    <td>-1 to BRN &amp; ATH</td>
+  </tr>
+  <tr>
+    <td>Dehydrated or Exhausted</td>
+    <td>-1 to ATH</td>
+  </tr> 
+  <tr>
+    <td>Drunk or High</td>
+    <td>-1 to LOG &amp; HEC</td>
+  </tr>  
+  <tr>
+    <td>Blinded</td>
+    <td>-1 to AWR &amp; HEC</td>
+  </tr>  
+  <tr>
+    <td>Enraged</td>
+    <td>-1 to EMP &amp; MIN</td>
+  </tr>  
+ </table>
 <H1>Setting Rules</H1>
 <p>These are specific rules to use when making up your own settings or to customize your game.</p>
+<H2>Weaker Mooks</H2>
+<p>For settings where anyone who isn't a named characters can be expected to hit any part of a barn. Instead of rolling 1D6+3 either roll 1D6+2 or 1D10.</p>
+<H2>More Deadly</H2>
+<p>Use following alternative table for determining the number of strikes each character gets.</p> 
+<table class="a">
+  <tr>
+    <th>Attribute</th>
+    <td>0-6</td>
+    <td>7-8</td>
+	<td>9-10</td>
+    <td>11-12</td>
+    <td>13+</td>
+	</tr>
+  <tr>
+    <th>Strikes</th>
+    <td>0</td>
+    <td>1</td>
+	<td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+ </table>
 	
 	
 </body>

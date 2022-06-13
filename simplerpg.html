@@ -63,15 +63,35 @@ p {
 </head>
 <body>
  
-<h1 id="SimpleRPG">SimpleRPG</h1> 
+<h1>SimpleRPG</h1> 
 <p>A Generic Roll-Playing System that Doesn't Suck.</p> 
 <h2>Table of contents</h2> 
-<a href="SimpleRPG">Jump to the part of the page with the “anchor-name” id </a>
-<h1>Background</h1> 
+<ol type="I">
+	<li><a href="#Background">Background</a></li>
+	<li><a href="#Character_Creation">Character Creation</a></li>
+	<ol type="i">
+		<li><a href="#Character_Background">Character Background</a></li>
+		<li><a href="#Background">Background</a></li>
+	</ol>
+	<li><a href="#General_Rules">General Rules</a></li>
+	<ol type="i">
+		<li><a href="#Skill_Checks">Skill Checks</a></li>
+		<li><a href="#Strikes">Strikes</a></li>
+		<li><a href="#Initiative">Initiative</a></li>
+		<li><a href="#NPCs">NPCs</a></li>
+		<li><a href="#Statuses_and_Effects">Statuses and Effects</a></li>
+	</ol>	
+	<li><a href="#Setting_Rules">Setting Rules</a></li>
+	<li>Specific Settings</li>
+	<ol type="i">
+		<li><a href="#Setting1">Eldritch Horrors by Post</a></li>
+	</ol>
+</ol>
+<h1 id="Background">Background</h1>
 <p>The purpose of this system is to have a bare-bones RPG that can be used to either a&#41; spin up a game quickly, or b&#41; serve as the foundation for a more built out game on top of it. I will leave notes inline as I go, but there are two things it is trying to solve. One is downtime at the table, every minute someone is looking up a rule, or more often consulting their sheet to see what skills even exist that may cover this scenario, is time that the game grinds to a halt. So it is built from the ground up to be a system where all the reference materials for running it fit on a page, and the players need a playing card at most. Second this system is designed to serve as the base resolution layer for any type of RPG on top, and as such has no dedicated combat rules in it. If you want to run a big shooting game, then that probably makes sense as something to bolt on, but there are lots of options for mechanics in games that are not "shoot the man" or more recently "track my social bonds with the man". So if you were trying to get your 'Drive to Survive' game, or 'Stardew Valley' knock off going, this is the place.</p> 
-<h1>Character Creation</h1>
+<h1 id="Character_Creation">Character Creation</h1>
 <p>To start with, you need to understand the world this is taking place in, and what your place in that world would be. So the GM needs to tell you what the background is, for you to start with character creation.</p>
-<h2>Background</h2>
+<h2 id="Character_Background">Character Background</h2>
 <p>Fill in the following &#40;not necessarily in order&#41;</p>
 <h3>Name</h3>
 <p>What is your characters name?</p>
@@ -85,7 +105,7 @@ p {
 <blockquote>Austin was born in Western Canada to two English speaking science profs, and raised in a few different cities across the Canadian prairies as his family found better roles in different universities. Graduated from a public high school in Saskatoon, having focused mostly on theatre & academics, and ended up with a MEng then MBA from UBC. Currently lives in Seattle with his girlfriend Jullie, working at Microsoft, and enjoys amateur dramatics in his spare time.</blockquote> 
 <h3>Job</h3>
 <p>What is your characters job, the thing they get paid for and are good at? Should be 1-3 words, like 'accountant' or 'police sergeant' or 'mercenary'. </p>
-<h2>Mechanics</h2>
+<h2 id="Mechanics">Mechanics</h2>
 <p>Next you need to choose your characters mechanical elements.</p>
 <h3>Attributes</h3>
 <p>First you need to set your characters attributes, they are used for resolving actions and checks during the game. Your character has seven attributes that all start at <b>1</b>. You have <b>15</b> points to increase them, costing <b>one</b> point to raise any attribute by <b>one</b>, and you cannot increase an attribute over <b>five</b>.</p>
@@ -241,9 +261,9 @@ p {
  </table>
 <h3>Other Items</h3>
 <p>Money and objects are not tracked by default in the game. The characters have what would make sense given their backgrounds and current roles.</p>
-<h1>Rules</h1> 
+<h1 id="General_Rules">General Rules</h1>
 <p>These are the rules for playing the game as a player. Some items relevant just to the GM are in the next section.</p> 
-<h2>Skill Checks</h2>
+<h2 id="Skill_Checks">Skill Checks</h2>
 <p>The core mechanic of the game is a skill check. Any time you are trying to do something that has a real chance of failing you need to make a skill check to see what the outcome is.</p>
 <p>The first step is to determine if a check should even happen. The GM should determine if the character can even do the thing they are trying to do, if the task is impossible do not do a check. If it is possible, then the GM should then determine if there is a real chance of someone failing at the thing they are attempting &#40;The Everyone is John Corollary&#41;. In both cases a rough guide is &quot;is there both a greater then 2% chance of this working and failing &quot; or &quot;if the character did this every day for two months, would it happen on at least one day, but not occur every day&quot;. So you should not have a check to drive to work, or to drive your car to the moon.</p>
 <p>Assuming you have determined this should be a check, next determine which of you attributes is the one being tested &#40;e.g. HEC for shooting a gun&#41. This should usually be clear, but if it isn't the GM has the final call on which one is being used. Next you need to determine if you are skilled at what you are trying to do. This is primarily driven by your characters job &#40;so a marine would be skilled shooting a gun&#41;, but the rest of your characters background is also relevant &#40;The same marine may be skilled at flying a plane if flying Cessna is their hobby&#41;. This is again the final call of the GM</p>
@@ -293,12 +313,12 @@ p {
 (S3) -Down-> (S4) : Easy 7\nNorm 10\nHard 13\nVHard 16
 (S4) -Down-> (S5)
 ">
-<h2>Strikes</h2>
+<h2 id="Strikes">Strikes</h2>
 <p>Each character has a number of strikes. That character can burn a strike to avoid one instance of negative circumstances. This could be something like getting shot, being crushed in a car crash, or going insane seeing the Dread Cthulhu. They cannot be used to make a check work, just to avoid the personal negative consequences &#40;survive a plane crash, not stop the plane from crashing&#41;. In game this would represent the character either dodging, toughing out the physical damage, or having the mental fortitude to power through, at the players discretion.</p>
 <p>Strikes are restored at the GMs discretion, but would generally be back to full at the start of the next adventure.</p>
-<h2>Initiative</h2>
+<h2 id="Initiative">Initiative</h2>
 <p>In cases where you need to determine who acts first, you would normally rely on context &#40;if someone starts shooting first, they go first&#41;. If it is unclear you can either have the relevant parties role REA tests, or just compare their REA stats to see who acts first.</p>
-<h2>NPCs</h2>
+<h2 id="NPCs">NPCs</h2>
 <p>This section covers characters that are not players, and are controlled by the GM. There are two types.</p>
  <aside>
 <p>&quot;Why 1D6+3?&quot; Because for all results it is equal or worse then 2D6 &#40;Given 1s for Mooks always fail&#41; and means you can roll checks for many of them at once.</p>
@@ -307,7 +327,7 @@ p {
 <p>These are any NPCs that are not major characters. They have no strikes, so any action that would incapacitate them takes them out of the game. When rolling a skill check with them, roll 1D6+3. Rolls of 1 always fail for Mooks.</p>
 <h3>Stars</h3>
 <p>These are any NPCs that are major characters. Build then and treat them like they are player characters, rolling 2D6 for their skill checks, and and tracking their strikes.</p>
-<h2>Statuses and Effects</h2>
+<h2 id="Statuses_and_Effects">Statuses and Effects</h2>
 <aside>
 <p>Particularly if you are playing in person, it is useful to either have cards with these written on them, or to freehand them on strips of paper when they come up, and hand them to the player as a tangible reminder of the impact. That way they are tracking it not you.</p>
 </aside>
@@ -338,7 +358,7 @@ p {
     <td>-1 to EMP &amp; MIN</td>
   </tr>  
  </table>
-<H1>Setting Rules</H1>
+<h1 id="Setting_Rules">Setting Rules</h1>
 <p>These are specific rules to use when making up your own settings or to customize your game.</p>
 <H2>Weaker Mooks</H2>
 <p>For settings where anyone who isn't a named characters can be expected to hit any part of a barn. Instead of rolling 1D6+3 either roll 1D6+2 or 1D10.</p>
@@ -362,7 +382,60 @@ p {
     <td>4</td>
   </tr>
  </table>
-	
+<h1 id="Setting1">Eldritch Horrors by Post</h1>
+<p>A modern setting, of fighting off the multi-dimensioned horrors from beyond space time.</p>
+<h2 id="Background1">Background</h2>
+<p><i> Exerted from the "USPIS Field Guide to Obscene and Blasphemous Material - 2018 edition"</i></p>
+<h3>The Long War</h3>
+<p>We are not alone, but God I wish we were. Based on the fact you are reading this, you have been exposed to some parts of this truth, but to drill it home there are many different.... entities, that are beyond our comprehension and mean us harm. Creatures who exist on to many dimensions and in to many universes at once, and are constantly attempting to enter our world. The good news is that without the help of something on this side, all they can do is shake their appendages in rage, the bad news is people continue to think that assisting them is a good idea. Whether they are doing it for power, wealth, or to understand the mysteries of the universe, it amounts to the same thing, they need to be stopped.</p>
+<p>The issue is that to know or understand these creatures or their <del>magics</del> works, is to be driven to utter insanity. We are not capable of viewing these entities, or using their powers without out physical and mental forms collapsing.<strong>There are No Exceptions</strong>. There is no way to safely cast a spell or someone an entity, to use those powers is to know them is to be broken.</p>
+<p>So how do you fight something you axiomatically do not understand? Through inference. For the last 3700+ years our professional forebears have been attempting to back into what these things are capable of, and what drives them. It's not perfect, but having a good idea what the eldritch is trying to do is better then knowing and now being in league with them. As for their accoutrements, the books, scrolls, ritual objects, &amp; cultists, <strong>Burn Them All</strong>. As a wise man once noted its the only way to be sure.</p>
+<h3>A Brief History of the End of the World</h3>
+<p>"Really, the post office?" is still the most common question that I get from new hires into our service. And unfortunately there isn't a great answer to that that doesn't at least touch on the history of our agency and these united states. After our independence some method of policing and obliterating the Eldritch was needed, and even under the articles of confederation no one thought it was a great idea to leave it to the several states. So there was a need to find some way of quietly keeping the countries witch finders on payroll, and under observation by a higher authority. Given that at the time there was only one federal organization that was charged with broad law enforcement responsibilities, we ended up here. With a plausible reason to travel all over the country, and the ability, nay duty to open and inspect the mail, the USPIS as it would come to eventually be know, was a great cover for our operations, and a chance to try and cut off questionable materials before they get to their recipients.</p>
+<p>In those early days we followed the traditional approach of burning everything, and killing any compromised cultists on site, on the basis that its better to limit how many people hear or know about these things. All it takes is 1 in 1000 people to think a greater summoning ritual is a great idea, and we are fucked. So we destroyed and covered up everything so people wouldn't get ideas. This lasted until the early 20th century when a combination of massive population growth mass literacy was threatening our grip on the situation. With some many people and so many readers, it became harder and harder to even detect the issues in time, and the general public often didn't even know something was wrong until it was to late. Enter our greatest success "HP Lovecraft". The decision was made to start publishing older case files &#40;With substantial changes&#41; so that the general public would know what to look out for, and raise the alarm far faster. As well thanks to the rise of fantasy and sci fi fiction in this period, we no longer had to be worried about people "taking it seriously". In fact this helped ensure that if most people did come across the real thing they would think it was an unpublished novel or a joke, as well as making it next to impossible for actual cultists to track down true tests among the flood of knock-offs.</p>
+<p>These days there are almost 150 of us "BookBurners" across the country, holding the line. In addition since the 50s we have been increasing assisted by our cell in the NSA &#40;Commonly Called the "Black Chamber", after someone pointed out that their job was to literally read other people's mail.&#41;. The letter ain't what is used to be, so we are reliant on them to provide leads form emails and other digital communications.</p>
+<h3>Legal Cover</h3>
+<p>The next question I usually get asked is "How is Any of This Legal?", which is a good question given all the manslaying and arson we do. The short answer is that at Common Law anyone consorting with 'Wyrd or Magique' powers is Caput lupinum or Outlawed, without right to trial or benefit of the clergy. In fact any freeman seeing someone doing said consorting was obliged to try and end them. Similarly any creature considered 'Fiend and Dæmon', or any materials relating to these subjects were to be destroyed wherever they were found with no penalty. And thanks to a few early decisions by John Marshall, these common law precepts are not only still in effect, but normal constitutional protections do not override them. As for why we have not updated them, well you tell me how getting a new law passed goes for you.</p>
+<p>The upshot of this is that if you see someone doing magic yourself, you have every right and duty to put that person in the ground. And that goes double for creatures beyond spacetime and the books that brought them here. That's not to say there is no oversight, there is. First the federal courts have jurisdiction over our activities. Every circuit has at least one justice who is clued in, and after any operation we are required to deposit a report of what went happened with them for ratification. And if it gets particularly contentious, the three relevant members of SCOTUS are perfectly willing to step in to settle it. Beyond the judiciary though, we are also governed by the commissioners, nine individuals appointed by the president to govern our activities. Those are the gentlemen who you will be asking for support from if you need resources not immediately available to you &#40;A10s don't grow on trees&#41;, and who will reign you in &#40;With lead if needed&#41;, if you step over the line.</p>
+<p>As for your personal powers, you have a commission from the president in your pocket outlining the authority you have been delegated with. This surprisingly does not include the afore mentioned manslaying and arson &#40;Since those Common Law powers are available to everyone&#41; but instead cover additional federal powers you have been invested with. Of particular note if a power of arrest, the power to raise the Posse Comitatus as required, and crucially "to direct all federal forces and resources, both civil and military as required". So theoretically the entire forces of the united states are at your disposal, practically the nice air force wing commander is unlikely to listen to you with a call from his superiors. </p>
+<p>There are two other legal items that need to be touched on. First in cases where individuals were involved in these affairs, but did not directly cast spells or consort with the Eldrich, they need to be arrested, then relaxed to the civil authority &#40;the judge&#41;. Now if you are resisting arrest.... things happen, but you can't just shoot them out of head. Second while you have immense powers to do your job, your bosses and the world at large cares far more about keeping a lid on the truth. While they will help stop murder investigations from following up on you after the fact, if someone gets you on video gunning a possessed kindergarten teacher they are going to cut you loose instead.</p>
+<h3>International</h3>
+<h3>The Threat</h3>
+<h2 id="Rules1">Setting Rules</h2>
+<p>Assume the base rules are in effect unless otherwise contradicted here.</p>
+<h3>Strikes</h3>
+<p>Strikes can only be used on physical tangible threats &#40;e.g. bullets, claws, cars&#41;. Strikes recover in the same way as in the base rules. Add together your BRN &amp; AWR, and compare it against the following table.</p>
+<table class="a">
+  <tr>
+    <th>Attribute</th>
+    <td>0-3</td>
+    <td>4-5</td>
+	<td>6-7</td>
+    <td>8-10</td>
+	</tr>
+  <tr>
+    <th>Strikes</th>
+    <td>0</td>
+    <td>1</td>
+	<td>2</td>
+    <td>3</td>
+  </tr>
+ </table>
+<h3>Sanity</h3>
+<p>You have 'Sanity Strikes', equal to your MIN stat. Every time you understand someone that is Eldritch &#40;e.g. read a book, see a Horror, hear a cursed play&#41; lose a Sanity Strike. Note that its not enough to be near it, if you don't get it it doesn't have an effect. For example if you were reading a cursed book, the GM might ask you to make a LOG skill test, if you pass you lose one sanity strike. Similarly you have roll AWR to see if you notice the wrong shape of something. Unlike normal for many of these checks you would want to fail. These points would regenerate between sessions at the GMs discretion, but consider how much time it would take to forget some of these things.</p>
+<p>If a character loses all their sanity strikes, two things happen. First these are out of the scene/mission. But second the GM in consultation with the player should select one modification off the following table, as a permanent impact to the character.</p>
+<table class="a b">
+  <tr>
+    <th>Modification</th>
+    <th>Description</th>
+    <th>Impact</th>
+	</tr>
+  <tr>
+    <td>Alcoholic</td>
+    <td>Turn to Drink to deal with the dreams</td>
+    <td>TBA</td>
+  </tr>
+ </table>
 	
 </body>
 </html>

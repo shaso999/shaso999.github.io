@@ -1,0 +1,178 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery_plantuml.js"></script>
+<!-- rawdeflate.js is implicity used by jquery_plantuml.js -->
+<style>
+p.padding {
+  padding-top: 0cm;
+  padding-bottom: 0cm;
+  padding-left: 2cm;
+}
+table, th, td {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.a td:nth-child(1){
+  text-align: left;
+}
+.b td:nth-child(2){
+  text-align: left;
+}
+.c td:nth-child(3){
+  text-align: left;
+}
+.d td:nth-child(4){
+  text-align: left;
+}
+.e{
+  margin:0;
+  padding:1px;
+}
+.f{
+    line-height: 0px;
+
+}
+.g{
+  margin:0;
+  padding:6px;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: LightSteelBlue;
+  color: black;
+}
+
+"col:nth-child"
+</style>
+</head>
+<body>
+ 
+<h1>Random Rants and Short Essays</h1> 
+<p>A collection of thoughts, mostly on buisness, economics, and accounting.</p> 
+<h2>Table of contents</h2> 
+<ol type="I">
+	<li><a href="#Affordable">On Affordable Housing (or why the rent is too damn high)</a></li>
+	<li><a href="#Rent">On Rent Control</a></li>
+	<li><a href="#Cashflow">Cashflow 101</a></li>
+	<li><a href="#Investing">Basic Investment Advice</a></li>
+	<li><a href="#Flood">Flood Insurance</a></li>
+	<li><a href="#Taxes1">What Makes a Good Tax</a></li>
+</ol>
+
+<h1 id="Affordable">On Affordable Housing (or why the rent is too damn high)</h1>
+<p>Prices to rent and buy housing are too high in most NA markets (Sorry Winnipeg) because there is a massive shortage of supply.</p>
+<p>Put simply there are more people that want to live in NYC, than there are places to sleep. So like in any case where at a given price point more people want a thing than want to sell a thing, the price goes up until Supply equals demand. In this case until the price is high enough that the number of people who want to live in a studio apartment in Queens equal the number of dilapidated rooms ($3500/month not including utilities).</p>
+<p>So if you want to fix this problem you need more places for people to sleep. There is no other solution. There is no way to magic your way out of this problem, because the basic issue is you are trying to fit 100 people into 80 beds, and you need some mechanism to decide which 20 people have to sleep in New Jersey instead.</p>
+<p>The other part of this is that it doesn’t matter what sort of housing you build you just need more of it. There is no such thing as a luxury apartment or a low income apartment, because people have to sleep somewhere, and will find the best thing in their budget. If the only options for someone who wants to live in SoHo are $4,500 a month, even if that place has literal holes in the walls they will take it, since it's in the spot they want to live, and they don’t have other choices. Vice versa if all an owner can get for a “luxury unit” is $600 a month due to an overbuild, they will rent it out at that price since it's better than it being empty.</p>
+<p>So even if you're just adding new “Luxury Units” it still helps since the people who moved into that unit, were living somewhere else before, which can now be rented. There is only one housing market.</p>
+<p>This also goes for homes and condos. If there are more people who want to live in a place than homes, prices will go up. The “quality” of the homes does not matter (See Vancouver), people will just buy crappier homes if that is the only option at their price point.</p>
+<p>TLDR There is only one housing market, to bring down prices, build more places for people to sleep regardless of its price point or nature.</p>
+
+<h1 id="Rent">On Rent Control</h1>
+<p>Rent control is the single most destructive economic policy that is Western governments enforce, coming right in front of green belts.</p>
+<p>When you put a ceiling on rent several things happen.</p>
+<p><b>First</b>, people stop building rental units, since they can no longer get a market return on their investment. Instead the units get turned into Condos or homes, since you can now make more that way with the same amounts of land. This also causes people to convert their current rental stock into condos.</p>
+<p><b>Second</b>, because there are now fewer rental units then people willing to rent them, you get rationing. It is now hard to find an apartment at all, since there are multiple potential residents for each unit. See NYC if you want an example of this.</p>
+<p><b>Third</b>, because of the first two points the quality of rental units goes down hill. Owners no longer have to care about treating tenets well, since it is easy for them to refill the units at the specified price. As such the units start to physically deteriorate, and tenant concerns are basically ignored.</p>
+<p><b>Fourth</b>, you now make it very hard for people to move into the city or between parts of the city hurting the economy further. Given that there are not enough units for everyone, and the quality is low, people do not want to give up units they have, people just move less.</p>
+<p><b>Fifth</b>, given the quality of the units and all of these other issues people are forced into purchasing homes instead. This further hampers their mobility, and locks up massive amounts of capital in real estate.</p>
+<p><b>Sixth, NONE OF THIS HELPS THE POOR.</b> In a world with rent control, the people that get the units are the people who can work the system. The people who can work the system the best, spending time to find the few available units are middle class people and up. Beyond that people renting out units will all else being equal prefer the better off tenants who are less likely to run into issues paying the even reduced rent.</p>
+<p>So ya this is a policy that hurts everyone, but we get to live with it, because it's apparently impossible for any competent municipal politician to explain this to voters.</p>
+
+<h1 id="Cashflow">Cashflow 101</h1>
+<p>The cash-flow statement is just the income statement for cash. The income statement summarizes the changes in equity, how you got from Opening retained earnings to Closing retained earnings. The Cashflow statement is exactly the same but looking at cash instead. So treat Cash like it is equity, it is the remainder of your balance sheet once all the other components have been accounted for.</p> 
+<p>So the change in cash will be equal to the net change in all your other balance sheet items. In the case of equity increases in Assets increase it and increases in liabilities decrease it, since it is on the liability side of the balance sheet (or a negative number). With cash it is reversed, since it is sitting on the Asset side of the balance sheet (a positive number). So all else being equal if your assets are higher, your cash has to be lower, and if the Liability side of the sheet expands, you cash must be getting bigger. So for example if your cash went up by $5MM, then your liabilities + equity - non-cash assets has to also be up by $5MM.</p> 
+<p>The other question if how you eliminate non-cash transactions, since the balance sheet includes both real cash transactions, and non-cash accruals or provisions. The key thing to remember is that thanks to double entry accounting, every non-cash transaction has two sides that cancel out. So as long as you exclude both sides your cash-flow will still balance. To use the PPE example, if you are amortizing a car, that is a debit to equity and a credit to fixed asset, so as long as you back both sides out of your calc, you still get to the correct amount of cash.</p> 
+
+<h1 id="Investing">Basic Investing Advice</h1>
+<p>To start with I am assuming that you are making more money then you are spending each month, and have paid off any credit cards that you have balances on. If those aren’t true do that first; there is no point in trying to invest if you aren’t cashflow positive, or have balances with 18% negative carry a year.</p>
+<p>Assuming you have money to invest, the first thing you want to do is to have some sort of liquid savings, enough to last you a few months if things go to shit. You want to have sufficient fuck you money that you can peace from your job or a bad relationship, and be okay until you find a new job or place to stay. This money should be in a high interest savings account. I recommend looking at various internet banks instead of just using the same bank you have you're checking at, since internet banks often have interest rates that are 5-10 times higher with no downside. I have enough in a Discover account to make it six months unemployed.</p>
+<p>Assuming you have done that, you want to start investing. I am not going to get into allocation yet, but lets talk about where you put your cash. The first decision point on this, is do you want to own a house in the next 5 years? If you do, then put the money in the aforementioned high interest savings account until you have enough for a downpayment.</p>
+<p>If you DGAF about housing/are now housed, then you want to max out your tax advantaged savings vehicles. In the US those are 401Ks and IRAs, in Canada those are TFSAs and RRSPs. Keep in mind that none of these are "pensions" or "investments", think of them like special brokerage accounts. You can buy stocks and bonds and ETFs in them, like in a regular investment account. What changes with them is that they have certain tax advantages, and certain restrictions on how much money can go in, and how much can go out.</p>
+<p>Broadly speaking there are two ways they work, with 401K/IRA/RRSP, any contributions are treated as deductions from your income when you put the money in, and are taxed as regular income when you take the money out. So you would pay less tax this year if you contribute. However that is just noise. The real benefit is that you don't get taxed at any point in-between. So as long as your money is in the account you get tax free compounding, which will have a huge impact over 30 years. The second type are Roth 401K/Roth IRA/TFSA, any contributions are made with after tax dollars, so you don't get any sort of deduction, but there are no taxes when you pull the money out. Again though the benefit is that any gains in the account do not get taxed. So in terms of which approach to take, think about what your marginal rates are today, versus in 40 years. But the big benefit is the same in both cases, tax free compounding.</p>
+<p>Getting country specific for a second, in the US 401K contributions have to be made off of your paycheck, so I would advise setting them so you contribute the max every year, assuming you are able to invest that much. IRA contributions are made on your own, but also have to be made in the correct tax year, so max them each year if you can. In Canada room for TFSA/RRSP roll over, so it's a lot less urgent.</p>
+<p>Next to allocation, Markets in the medium term are semi strong form efficient. Over time the prices of assets will equal their value based on publicly available info. Given that, trying to "beat the market" is stupid. Statistically most professional investment brokers fail to do it after costs, so what are the odds you'll be able to pull it off. You are far better off just trying to buy the market. We don't know what companies will succeed or fail, but we do know that in the medium term the economy is going up. So what you want to do is purchase as many small pieces of as many companies as possible, so that your returns equal the total increase in the market. The best way to do that is with ETF's, which are a single stock that holds 1000s of companies in it.</p>
+<p>What you want is to find the cheapest ETF's in terms of expenses that broadly hold the market. For US residents I recommend 50% in an ETF that holds the US market, and 50% in an ETF that holds the developed world outside of the US. That gets you broad coverage of the world economy, holding 20,000 different stocks, but in two lines. What you want to do is once a year look at your positions, and buy and sell between the two ETFs so they are 50/50 again. But if you have limited options (like in an employer 401K) look for the ETFs that have the lowest MER (expenses) since that's the part you can control.</p>
+<p>The other piece of this is risk, and how much tolerance you have for it. Because in the short run the market can do incredibly dumb things, like drop by 40%. There are two ways to think of risk, first is in terms of your time horizon, and the second is you personally. In terms of the time horizon you want to consider how long in the future you need the money. If you are 25 years out from retirement you have more than enough time to recover from any short run losses, so who cares. But if you are three years out a big drop in the market would be a problem. The other part is you personally. Are you okay with losing 30% of your portfolio, or will you panic? As long as you are comfortable with that sort of drop then there is no problem, but if you aren't then you need to find a safer approach, because the worst thing you could do is sell early, in the middle of a downturn.</p>
+<p>The way we hedge against these risks is with more stable assets like bonds. So for example you might have 80% in ETFs and 20% in T-Bills or a conservative bond fund. That will limit your gains, since bonds don't have the upside, but cushion any losses since they also don't have the downside. I currently have nothing in bonds, since I am a robot that knows neither fear or love, and am 30, but if you have more short term aspirations, or know you might want to panic, consider allocating a percentage to bonds earlier.</p>
+<p>For Canadian residents, you may want to break up that 50/50 split to include a Canada portion. I'm not the world's biggest fan of over-weighting on Canada, given you can get Canadian domiciled ETFs with global/US coverage, but going 40/40/20 with the 20 being Canada, or 33/33/33 is defensible.</p>
+<p>In terms of what platform to use, find an internet one that charges the lowest, or ideally no fees. I like Questrade in Canada, and Fidelity in the US since neither charge commissions on most ETF trades. Again the name of the game is trying to get the market return with the lowest possible costs. If you still have money left to invest after the government tells you, you can't shove anymore in your TFSA, then open up a regular brokerage account, and start investing there with the same strategy.</p>
+<p>Personally I max out my 401K and Roth IRA every year, and throw additional cash into my brokerage account as it comes along.</p>
+
+<h1 id="Flood">Flood Insurance</h1>
+<p>I am a fan of just banning new construction in areas that are major flood risks because of the political constraints.</p>
+<p>There are three ways that you can deal with issues like periodic flooding, either you 1) tell people they knew what they were getting into and are on their own to find private insurance/support and rebuild, 2) force people to take out flood insurance if they live in these areas to make sure the general tax payer isn't on the hook, or 3) just ban new construction in these areas, and move people out of them over time.</p>
+<p>The issue with number one is that flood events by definition are largish and not very regular (if the lot flooded twice a year no one would build on it). So they are following extreme weather events, dam failures, etc, and there are zero politicians who are going to say after a hurricane, you made your choices tough shit. At least not if they want to continue being politicians. Bush Jr just made a poor transit decision during one of these events, and he took a bigger hit to his standing in the country than from either the war on terror, or the war on social security. So there is no governor who when faced with major flooding is going to be the one telling survivors they are SOL.</p> 
+<p>So why not take route two, and just insure against the risks? The problem is that the rates will never be large enough to accurately price the risk, because again these are by large and irregular events. The bureaucracy and politicians don’t have a strong incentive to make these programs solvent since most years claims are low, and they know that if a massive disaster does strike the government will backstop the program. So over time it is easier to acquiesce to lower rates, or not keep them in pace with inflation, or to not increase them to track increased risks. So even if after a massive disaster they raise the rates to make sure “this doesn’t happen again”, all of the human and economic incentives over the proceeding 10-20 years is for them to fall out of alignment again.</p> 
+<p>So given that failure is basically inevitable, I prefer option three, which is just banning habitation and commercial construction in these areas. It hurts my neoliberal soul to not just use prices to solve the problem, but given political constraints your real options are either have the taxpayer bail these areas out every 15-25 years, or just stop people from living there, and door two seems more rational.</p>
+
+<h1 id="Taxes1">What Makes a Bad Tax</h1>
+<p>Taxes Suck.</p> 
+<p>We all understand that they are necessary to fund government services, but if we did not need to raise the funds everyone would be better off if they did not exist. That said it's important to understand why taxes suck specifically, because unless you understand the harms you are trying to minimise, you’ll end up creating taxes that are “worse” for every dollar raised.</p>
+<p>Taxes suck for 4 reasons.</p>
+<p><b>First</b>, they result in people having less money. Like literally every dollar the government has is one more dollar you do not. This is bad both because you would like to spend those dollars on things that give you personal meaning, but also because individuals who defer consumption and invest that retained money, produce more wealth for society in the long run. Now this argument gets muddied by the fact that the government can itself invest the money (I would argue poorly, but I’ll leave that to one side), and it’s other spending is a sort of “consumption” for taxpayers in the form of services or security, but all else being equal you having more money left in your pocket at the end of the day is better given it either results in you having more stuff you like, or investing it in things that produce more stuff in the future.</p>
+<p><b>Second</b>, they suck because they create a disincentive to working or to investing. The reason that people decide to do things like work or invest their capital is to get money, so if you change the return they will receive for doing that thing, you will change the number of people willing to do it/the amount of time they are willing to do it for/the amount of capital they will invest in the project. To be clear this does not mean that if the tax rate goes from 37% to 38% suddenly everyone decides to stop being a doctor, but on the margin their are some number of people that were on the edge of deciding to pursue medicine or something with lower pay but more sane hours, and this would tip the scales. The same goes for investing money, if a tax change changes their return by 2% there is a non-zero number of people who were split on investing the cash, or buying a Beamer, who are now going for the car.</p>
+<p>The thing is that from a collective perspective we would prefer that more people do hard jobs like being doctor, since those jobs produce value for society. And we would prefer that people invest capital in useful ventures, so collectively we are producing more stuff in the future, than have them consume it today. So on the margin we want taxes to not change people's behaviours.</p>
+<p><b>Third</b>, taxes create sub optimal capital structures and allocation. There are multiple different ways to structure how you work or how an enterprise is run. You can structure something as a company, a trust, a partnership, a proprietorship, and there are different valid reasons to go with one or the other. Some will be easier to set up, some provide the right type of legal coverage, others allocate risks appropriately, etc. But the point is that whichever form that people want to use is the best form for them. All else being equal they are going to choose the form that best meets the needs of the economic activity they are engaging in. And this is a good thing since this will maximise both their willingness to enter into the business, and the productivity/returns from it. So if the tax structure is biased in favour or against structure, this will cause a loss to society, since on the margin people will set up their enterprise in a suboptimal fashion due to the incentives created from the tax structure.</p>
+<p>Similarly this can cause problems in terms of how people invest their funds, since if certain types of investments are favoured or disfavoured by the tax code, people will change what types of things they invest in on the margin, putting their capital into less productive enterprises because they are tax favoured. For example if a certain type of share is tax favoured it will attract more capital than it otherwise would based on fundamentals and returns. Given those returns represent what value we expect the investment to generate in the future, we are drawing money into worse investments, away from better ones, lowering our economic output in the long term.</p>
+<p><b>Fourth</b>, taxes generate a deadweight loss on society. This deadweight loss is the difference between how much cash the government takes in, and how much cash the tax costs taxpayers. This difference is how much it costs for the taxpayer to comply with the tax regime, which isn’t free. This includes all of the professionals that they have to hire to prepare their taxes (lawyers, accountants, consultants), the software they have to buy to gather all the data, and the layers of bureaucracy (AP/AR clerks, tax preparers, internal auditors) they need to implement to get all the info together. This money is just lost, it generates no value to society, and we want to minimise it as much as possible.</p>
+<p>Note that these deadweight losses scale both on how hard it is to comply with the tax, and on how large the tax is. The more complicated the code is, the more lawyers you need to hire to understand it, and the more detailed the data you need to support your filing the more admin you need to collect all the data. But also the larger the tax is the more incentive people have to spend money on reducing that tax burden. If you're paying a 10% tax rate you have far less incentive to hire lawyers to lower your income, than if you're paying a 40% rate.</p>
+
+<footer>
+  <p>© 2022 Douglas Feltham, All Rights Reserved</p>
+  <a href="mailto:douglas.feltham@gmail.com">douglas.feltham@gmail.com</a></p>
+</footer>
+
+</body>
+
+<!--
+Known Good PlantUML Example
+
+<img uml="
+(Is it Possible?) as (Q1)
+(Do not Roll, It Doesn't Happen) as (N1)
+(Can it Fail?) as (Q2)
+(Do not Roll, It Happens) as (N2)
+(Determine the Attribute) as (S1)
+(Is the Character Skilled in This?) as (S2)
+(Determine TN) as (S3)
+(Roll Dice & Add Modifications) as (S4)
+(Check is Total => Then TN) as (S5)
+(Q1) -Right-> (N1) : No
+(Q1) -Down-> (Q2) : Yes
+(Q2) -Right-> (N2) : No
+(Q2) -Down-> (S1)
+(S1) -Down-> (S2)
+(S2) -Down-> (S3) : Yes
+(S2) -Down-> (S3) : No\n(-2)
+(S3) -Down-> (S4) : Easy 7\nNorm 10\nHard 13\nVHard 16
+(S4) -Down-> (S5)
+">
+
+-->
+
+
+</html>
